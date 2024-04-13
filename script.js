@@ -8,11 +8,15 @@ const collectEmployees = function() {
   let addEmployee = true;
 
   while (addEmployee) {
-      let firstName = window.prompt("Enter first name:");
-      let lastName = window.prompt("Enter the last name:");
-      let salary = parseInt(window.prompt("Enter salary:")); 
+      let firstName = prompt("Enter first name:");
+      let lastName = prompt("Enter last name:");
+      let salary = parseInt(prompt("Enter salary:")); 
 
-      employees.push({firstName, lastName, salary});
+      if (!isNaN(salary)) {
+        employees.push({firstName, lastName, salary});
+      } else {
+        alert ("Enter a numeric salary");
+      }
       addEmployee = confirm("Do you want to add another employee?");
   }
   return employees;
