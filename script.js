@@ -4,7 +4,7 @@ const employees = [];
 // Collect employee data
 const collectEmployees = function() {
   let addEmployee = true;
-
+//Add while loop and isNan function
   while (addEmployee) {
       let firstName = prompt("Enter first name:");
       let lastName = prompt("Enter last name:");
