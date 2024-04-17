@@ -21,7 +21,7 @@ To review "AnnaK -payroll-tracker", you can click in the deployed link and the s
 
 ## Deployed link
 
-[deployed link]()
+[deployed link](https://explorer7733.github.io/AnnaK-payroll-tracker/)
 
 ## Screenshots
 
